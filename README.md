@@ -8,6 +8,23 @@
 ## 処理概要
 - inputフォルダ内のCSVファイルの商品情報を読み取り、開発ストアpowerful2025に登録
 
+## 商品画像を管理画面に登録
+### Shopify管理画面
+#### 手順01
+![管理画面操作01](images/content_upload_01.png)
+#### 手順02
+![管理画面操作02](images/content_upload_02.png)
+#### 手順03
+![管理画面操作03](images/content_upload_03.png)
+#### 手順04
+![管理画面操作04](images/content_upload_04.png)
+#### 手順05
+![管理画面操作05](images/content_upload_05.png)
+#### 手順06
+![管理画面操作06](images/content_upload_06.png)
+#### 手順07
+- クリックボードに画像URLがコピー
+
 ## 入力ファイルのサンプル
 
 ## 環境構築
