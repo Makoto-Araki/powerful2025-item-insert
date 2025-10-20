@@ -26,6 +26,7 @@
 - クリックボードに画像URLがコピー
 
 ## 入力ファイルのサンプル
+![入力ファイルサンプル01](images/input_csv_01.png)
 
 ## 環境構築
 ### ローカルリポジトリ作成
@@ -36,8 +37,8 @@ $ sudo apt upgrade
 $ sudo apt install python3-venv -y
 
 ## ディレクトリ移動
-$ mkdir ~/powerful2025-item-select
-$ cd powerful2025-item-select
+$ mkdir ~/powerful2025-item-register
+$ cd powerful2025-item-register
 
 ## ローカルリポジトリ初期化
 $ git init
@@ -46,7 +47,7 @@ $ git config --global user.name Makoto-Araki
 
 ## リモートリポジトリ設定
 $ git branch -M main
-$ git remote add origin git@github.com:Makoto-Araki/powerful2025-item-select.git
+$ git remote add origin git@github.com:Makoto-Araki/powerful2025-item-register.git
 ```
 
 ### 開発準備
@@ -74,8 +75,8 @@ $ deactivate
 ## Python仮想環境起動
 $ source venv/bin/activate
 
-## CSV出力用ディレクトリ作成
-$ mkdir output
+## CSV入力用ディレクトリ作成
+$ mkdir input
 
 ## Pythonプログラム記述
 $ vi main.py
