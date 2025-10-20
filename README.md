@@ -6,7 +6,7 @@
 - リモートリポジトリ作成済
 
 ## 処理概要
-- inputフォルダ内のCSVファイルの商品情報を読み取り、開発ストアpowerful2025に登録
+- inputフォルダ内の入力CSVファイルの商品情報を読み取り、開発ストアpowerful2025に登録
 
 ## 商品画像を管理画面に登録
 ### Shopify管理画面
@@ -25,8 +25,8 @@
 #### 手順07
 - クリックボードに画像URLがコピー
 
-## 入力ファイルのサンプル
-![入力ファイルサンプル01](images/input_csv_01.png)
+## 入力CSVファイルのサンプル
+![入力CSVファイルサンプル01](images/input_csv_01.png)
 
 ## 環境構築
 ### ローカルリポジトリ作成
@@ -64,7 +64,7 @@ $ pip install -r requirements.txt
 $ echo 'ACCESS_TOKEN=(APIトークン)' >> .env
 $ echo '.env' >> .gitignore
 $ echo 'venv/' >> .gitignore
-$ echo 'output/' >> .gitignore
+$ echo 'input/' >> .gitignore
 
 ## Python仮想環境終了
 $ deactivate
@@ -75,8 +75,11 @@ $ deactivate
 ## Python仮想環境起動
 $ source venv/bin/activate
 
-## CSV入力用ディレクトリ作成
+## 入力CSVファイル用のディレクトリ作成
 $ mkdir input
+
+## 入力CSVファイル作成
+$ vi input_csv_01.csv
 
 ## Pythonプログラム記述
 $ vi main.py
