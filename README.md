@@ -37,8 +37,8 @@ $ sudo apt upgrade
 $ sudo apt install python3-venv -y
 
 ## ディレクトリ移動
-$ mkdir ~/powerful2025-item-register
-$ cd powerful2025-item-register
+$ mkdir ~/powerful2025-item-insert
+$ cd powerful2025-item-insert
 
 ## ローカルリポジトリ初期化
 $ git init
@@ -47,7 +47,7 @@ $ git config --global user.name Makoto-Araki
 
 ## リモートリポジトリ設定
 $ git branch -M main
-$ git remote add origin git@github.com:Makoto-Araki/powerful2025-item-register.git
+$ git remote add origin git@github.com:Makoto-Araki/powerful2025-item-insert.git
 ```
 
 ### 開発準備
@@ -65,6 +65,7 @@ $ echo 'ACCESS_TOKEN=(APIトークン)' >> .env
 $ echo '.env' >> .gitignore
 $ echo 'venv/' >> .gitignore
 $ echo 'input/' >> .gitignore
+$ echo 'output/' >> .gitignore
 
 ## Python仮想環境終了
 $ deactivate
@@ -77,6 +78,7 @@ $ source venv/bin/activate
 
 ## 入力CSVファイル用のディレクトリ作成
 $ mkdir input
+$ mkdir output
 
 ## 入力CSVファイル作成
 $ vi input_csv_01.csv
