@@ -1,4 +1,4 @@
-# powerful2025-item-register (商品登録)
+# powerful2025-item-insert (商品登録)
 
 ## 前提条件
 - Shopifyに開発ストアpowerful2025が存在
